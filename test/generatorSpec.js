@@ -13,10 +13,11 @@ describe('Mocha/Grunt generator test suite', function(){
 		
 		mockGen.run(path.join(__dirname, '../app'))
 			.inDir(path.join(__dirname, './tmp'))
+			.withArguments([mockRepoName])
 			.on('end', done);
 	});
 	
-	it('should generate a test directory', function(){
+	it('should generate a root directory', function(){
 		assert.file(mockRepoName + '/');
 	});
 });
