@@ -28,14 +28,5 @@
 	"bugs": {
 		"url": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test/issues"
 	},
-	"homepage": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test",
-	"dependencies": {
-		"yeoman-generator": "^0.17.3",
-		"chalk": "^0.5.1"
-	},
-	"devDependencies": {
-		"grunt-mocha-test": "^0.11.0",
-		"grunt-contrib-jshint": "^0.10.0",
-		"grunt": "^0.4.5"
-	}
+	"homepage": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test"
 }
