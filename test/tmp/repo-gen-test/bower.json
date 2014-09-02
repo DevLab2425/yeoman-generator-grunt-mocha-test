@@ -1,0 +1,22 @@
+{
+	"name": "repo-gen-test",
+	"version": "0.0.1",
+	"homepage": "http://github.com",
+	"description": "Unit Test Gen",
+	"authors": [
+		"DevLab2425"
+	],
+	"main": "repo-gen-test.js",
+	"keywords": [],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular": "~1.2.21"
+	}
+}
