@@ -1,32 +1,41 @@
 {
-	"name": "yeoman-generator-grunt-mocha-test",
-	"version": "0.0.1",
-	"title": "Yeoman Generator Unit Test Tutorial",
-	"description": "A step-by-step tutorial of creating a Yeoman generator using TDD unit testing with Mocha and Grunt",
-	"main": "yeoman-generator-grunt-mocha-test.js",
-	"directories": {
-		"test": "test"
-	},
-	"scripts": {
-		"test": "grunt test"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test.git"
-	},
-	"keywords": [],
-	"author": {
-		"name": "DevLab2425",
-		"email": "devlab2425@gmail.com"
-	},
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://www.opensource.org/licenses/mit-license"
-		}
-	],
-	"bugs": {
-		"url": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test/issues"
-	},
-	"homepage": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test"
+  "name": "yeoman-generator-grunt-mocha-test",
+  "version": "0.0.1",
+  "title": "Yeoman Generator Unit Test Tutorial",
+  "description": "A step-by-step tutorial of creating a Yeoman generator using TDD unit testing with Mocha and Grunt",
+  "main": "yeoman-generator-grunt-mocha-test.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "DevLab2425",
+    "email": "devlab2425@gmail.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test/issues"
+  },
+  "homepage": "https://github.com/DevLab2425/yeoman-generator-grunt-mocha-test",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-mocha-test": "^0.11.0",
+    "grunt-contrib-jshint": "^0.10.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.17.5",
+    "chalk": "^0.5.1"
+  }
 }
